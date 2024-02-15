@@ -7,12 +7,12 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: my-ig
-canonical: http://example.com/fhir/example
-url: http://example.com/fhir/example
-name: ExampleIG
-title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
-description: Example IG exercises many of the fields in a SUSHI configuration.
+id: openhie.fhir.zambia-training
+canonical: http://openhie.org/fhir/zambia-training
+url: http://openhie.org/fhir/zambia-training/ImplementationGuide/openhie.fhir.zambia-training
+name: Zambia-Traning
+title: "Zambia Traning"
+description: Zambia-Traning used for demo.
 status: active
 license: CC0-1.0
 date: 2020-02-26
@@ -21,7 +21,7 @@ version: 1.0.0
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here, but the current tooling 
 # only supports one FHIR version per Implementation Guide
-fhirVersion: 4.0.1
+fhirVersion: 5.0.0
 
 # The following two lines correspond to items that used to be in
 # ig.ini but were moved to IG.definition.parameter. For
