@@ -7,8 +7,7 @@ Profile: TestPatient
 Parent: Patient
 Id: test-patient
 Title: "Test Patient"
-Description: "Test Patient"
-* ^description = "must support phone and email" 
+Description: "Test Patient for training"
 
 * identifier 1..*
 * identifier ^slicing.discriminator.type = #value
