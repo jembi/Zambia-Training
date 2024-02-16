@@ -1,0 +1,435 @@
+{
+  "date" : "Thu, 15 Feb, 2024 18:30:31 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-openhie.fhir.zambia-training.json",
+      "size" : 4126,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 40
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 35,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 50
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 425
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 37,
+          "length" : 58
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 62
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 49,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 52,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-cs-key-population-status.json",
+      "size" : 498,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 15
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 35,
+          "length" : 297
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 1396
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-TestPatientExampleOne.json",
+      "size" : 1388,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 19
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 375
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 211
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 41,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-TestPatientExampleTwo.json",
+      "size" : 1748,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 27
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 41,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-hiv-key-pop.json",
+      "size" : 1738,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 19
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 39
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 142
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 61
+        },
+        {
+          "activity" : "generate2",
+          "start" : 41,
+          "length" : 998
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-hiv-pop-status-complex.json",
+      "size" : 2292,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 21
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 20
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 27
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 230
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 87
+        },
+        {
+          "activity" : "generate2",
+          "start" : 42,
+          "length" : 180
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-hiv-pop-status-date.json",
+      "size" : 1616,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 48
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 55
+        },
+        {
+          "activity" : "generate2",
+          "start" : 42,
+          "length" : 127
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-test-patient.json",
+      "size" : 6479,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 33
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 18
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 197
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 163
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 531
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 581
+        },
+        {
+          "activity" : "generate2",
+          "start" : 42,
+          "length" : 1286
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 22
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 52,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-vs-key-population-status.json",
+      "size" : 1203,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 34,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 34,
+          "length" : 8
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 35,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 139
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 89
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 43,
+          "length" : 2092
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 49,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

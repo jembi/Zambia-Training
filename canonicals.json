@@ -1,0 +1,51 @@
+[
+  {
+    "id" : "cs-key-population-status",
+    "type" : "CodeSystem",
+    "url" : "http://openhie.org/fhir/zambia-training/CodeSystem/cs-key-population-status",
+    "version" : "1.0.0",
+    "name" : "CSKeyPopulationStatus"
+  },
+  {
+    "id" : "openhie.fhir.zambia-training",
+    "type" : "ImplementationGuide",
+    "url" : "http://openhie.org/fhir/zambia-training/ImplementationGuide/openhie.fhir.zambia-training",
+    "version" : "1.0.0",
+    "name" : "ZambiaTraning"
+  },
+  {
+    "id" : "hiv-key-pop",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/zambia-training/StructureDefinition/hiv-key-pop",
+    "version" : "1.0.0",
+    "name" : "HIVKeyPop"
+  },
+  {
+    "id" : "hiv-pop-status-complex",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/zambia-training/StructureDefinition/hiv-pop-status-complex",
+    "version" : "1.0.0",
+    "name" : "HIVPopStatusComplex"
+  },
+  {
+    "id" : "hiv-pop-status-date",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/zambia-training/StructureDefinition/hiv-pop-status-date",
+    "version" : "1.0.0",
+    "name" : "HIVPopStatusDate"
+  },
+  {
+    "id" : "test-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/zambia-training/StructureDefinition/test-patient",
+    "version" : "1.0.0",
+    "name" : "TestPatient"
+  },
+  {
+    "id" : "vs-key-population-status",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/zambia-training/ValueSet/vs-key-population-status",
+    "version" : "1.0.0",
+    "name" : "VSKeyPopulationSatus"
+  }
+]

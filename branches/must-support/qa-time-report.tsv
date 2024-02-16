@@ -1,0 +1,10 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-openhie.fhir.zambia-training.json	4126	-	0	0	0	0	0	0	4	50	0	0	0	0	0	0	0	1	0	0	58	62	0	0	0	2	0	1
+fsh-generated/resources/CodeSystem-cs-key-population-status.json	498	15	0	0	1	0	0	0	0	9	0	0	1	0	0	0	0	0	0	0	10	1396	0	0	0	1	0	0
+fsh-generated/resources/Patient-TestPatientExampleOne.json	1388	19	0	0	0	0	0	0	0	375	0	0	0	0	0	0	0	0	0	0	11	13	0	0	0	0	0	0
+fsh-generated/resources/Patient-TestPatientExampleTwo.json	1748	17	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	17	7	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-hiv-key-pop.json	1738	18	0	0	0	0	0	19	0	39	0	0	0	0	0	0	0	0	0	0	61	998	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-hiv-pop-status-complex.json	2292	21	0	0	0	0	0	27	0	29	0	0	0	0	0	0	0	0	0	0	87	180	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-hiv-pop-status-date.json	1616	18	0	0	0	0	0	13	0	17	0	0	0	0	0	0	0	1	0	0	55	127	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-test-patient.json	6479	33	1	0	0	0	0	197	0	163	0	0	1	0	0	0	0	2	0	0	581	1286	0	0	0	22	0	1
+fsh-generated/resources/ValueSet-vs-key-population-status.json	1203	19	0	0	0	0	0	0	1	139	0	0	0	0	0	0	0	0	0	0	17	2092	0	0	0	1	0	0

@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://openhie.org/fhir/zambia-training/CodeSystem/cs-key-population-status",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "CSKeyPopulationStatus",
+      "title" : "Key Population Status",
+      "description" : "A list of key population types"
+    }
+  ]
+}

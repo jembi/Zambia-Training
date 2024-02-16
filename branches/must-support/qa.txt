@@ -1,0 +1,34 @@
+ZambiaTraning : Validation Results
+=========================================
+
+err = 0, warn = 0, info = 7
+IG Publisher Version: 1.5.16
+Generated Thu Feb 15 18:30:49 UTC 2024. FHIR version 5.0.0 for openhie.fhir.zambia-training#1.0.0 (canonical = http://openhie.org/fhir/zambia-training)
+ Build Errors : 0 / 0 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-key-population-status : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.zambia-training : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Patient-TestPatientExampleOne : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-TestPatientExampleTwo : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-key-pop : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-pop-status-complex : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-pop-status-date : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-test-patient : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-key-population-status : 0 / 0 / 2
+</table>
+== n/a ==
+== fsh-generated/resources/CodeSystem-cs-key-population-status.json ==
+INFORMATION: CodeSystem/cs-key-population-status: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ImplementationGuide-openhie.fhir.zambia-training.json ==
+INFORMATION: ImplementationGuide/openhie.fhir.zambia-training: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Patient-TestPatientExampleOne.json ==
+== fsh-generated/resources/Patient-TestPatientExampleTwo.json ==
+== fsh-generated/resources/StructureDefinition-hiv-key-pop.json ==
+INFORMATION: StructureDefinition/hiv-key-pop: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-hiv-pop-status-complex.json ==
+INFORMATION: StructureDefinition/hiv-pop-status-complex: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-hiv-pop-status-date.json ==
+INFORMATION: StructureDefinition/hiv-pop-status-date: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-test-patient.json ==
+INFORMATION: StructureDefinition/test-patient: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vs-key-population-status.json ==
+INFORMATION: ValueSet/vs-key-population-status: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0

@@ -1,0 +1,55 @@
+{
+  "resourceType" : "Patient",
+  "id" : "TestPatientExampleOne",
+  "meta" : {
+    "profile" : ["http://openhie.org/fhir/zambia-training/StructureDefinition/test-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Anonymous Patient</b> (no stated gender), DoB Unknown ( <code>http://openhie.org/fhir/zambia-training/identifier/mr</code>/MRN1234-A)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Id:</td><td colspan=\"3\"><code>http://openhie.org/fhir/zambia-training/identifier/nid</code>/NID1234</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li>ph: 083-123-4567</li><li><a href=\"mailto:same@gmail.com\">same@gmail.com</a></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient contact\">Contact</td><td colspan=\"3\"><ul><li>Moses John Giji </li><li>ph: 0831234567</li><li><a href=\"mailto:same@gmail.com\">same@gmail.com</a></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"HIV Key Pop\"><a href=\"StructureDefinition-hiv-key-pop.html\">HIV Key Pop:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://snomed.info/sct 472986005}\">Sexually active with men (finding)</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"HIV Key Pop Date\"><a href=\"StructureDefinition-hiv-pop-status-date.html\">HIV Key Pop Date:</a></td><td colspan=\"3\"><ul><li>1983-05-22 16:40:17+0200</li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://openhie.org/fhir/zambia-training/StructureDefinition/hiv-key-pop",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "472986005"
+      }]
+    }
+  },
+  {
+    "url" : "http://openhie.org/fhir/zambia-training/StructureDefinition/hiv-pop-status-date",
+    "valueDateTime" : "1983-05-22T16:40:17+02:00"
+  }],
+  "identifier" : [{
+    "system" : "http://openhie.org/fhir/zambia-training/identifier/mr",
+    "value" : "MRN1234-A"
+  },
+  {
+    "system" : "http://openhie.org/fhir/zambia-training/identifier/nid",
+    "value" : "NID1234"
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "083-123-4567"
+  },
+  {
+    "system" : "email",
+    "value" : "same@gmail.com"
+  }],
+  "contact" : [{
+    "name" : {
+      "family" : "Giji",
+      "given" : ["Moses",
+      "John"]
+    },
+    "telecom" : [{
+      "system" : "phone",
+      "value" : "0831234567"
+    },
+    {
+      "system" : "email",
+      "value" : "same@gmail.com"
+    }]
+  }]
+}
